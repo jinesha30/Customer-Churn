@@ -1,0 +1,79 @@
+{
+    "best_model": "XGBoost",
+    "best_f1_score": 0.8963,
+    "raw_features_count": 23,
+    "engineered_features_count": 15,
+    "dimensionality_reduction_pct": 34.78,
+    "categorical_cols": [
+        "Contract",
+        "InternetService",
+        "PaymentMethod"
+    ],
+    "numeric_cols": [
+        "Tenure",
+        "MonthlyCharges",
+        "TotalCharges",
+        "TotalAddonServices",
+        "SatisfactionScore",
+        "ComplaintsLastYear",
+        "NumSupportTickets",
+        "AverageMonthlyUsageGB",
+        "MonthlyChargesToTenureRatio",
+        "UsageToCostRatio",
+        "ComplaintRatePerYear",
+        "SeniorCitizen"
+    ],
+    "metrics": {
+        "Logistic Regression": {
+            "Accuracy": 0.8971,
+            "Precision": 0.8994,
+            "Recall": 0.8907,
+            "F1-Score": 0.895,
+            "ROC-AUC": 0.9363,
+            "Confusion_Matrix": [
+                [
+                    963,
+                    103
+                ],
+                [
+                    113,
+                    921
+                ]
+            ]
+        },
+        "Random Forest": {
+            "Accuracy": 0.8929,
+            "Precision": 0.8954,
+            "Recall": 0.8859,
+            "F1-Score": 0.8906,
+            "ROC-AUC": 0.9358,
+            "Confusion_Matrix": [
+                [
+                    959,
+                    107
+                ],
+                [
+                    118,
+                    916
+                ]
+            ]
+        },
+        "XGBoost": {
+            "Accuracy": 0.8981,
+            "Precision": 0.8981,
+            "Recall": 0.8946,
+            "F1-Score": 0.8963,
+            "ROC-AUC": 0.9363,
+            "Confusion_Matrix": [
+                [
+                    961,
+                    105
+                ],
+                [
+                    109,
+                    925
+                ]
+            ]
+        }
+    }
+}
