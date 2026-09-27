@@ -11,7 +11,7 @@
 
 ## 📌 Project Highlights & Key Metrics
 
-- **Dataset Volume**: 10,500 customer records with 24 raw feature dimensions.
+- **Dataset Volume**: 10,500 customer records with 23 raw feature dimensions.
 - **Dimensionality Reduction**: Reduced feature space by **34.8% (~35%)** (23 raw features down to 15 engineered high-signal features) using service composite aggregations and interaction ratios.
 - **Model Performance**:
   | Model | Accuracy | Precision | Recall | **F1-Score** | ROC-AUC |
